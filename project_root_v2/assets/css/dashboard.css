@@ -1,0 +1,4 @@
+.container { max-width:1200px; margin:0 auto; padding:20px; }
+.filters { display:flex; gap:10px; flex-wrap:wrap; margin-bottom:20px; }
+.charts { display:grid; grid-template-columns:1fr 1fr; gap:30px; }
+canvas { background:#fff; padding:10px; border:1px solid #ddd; }

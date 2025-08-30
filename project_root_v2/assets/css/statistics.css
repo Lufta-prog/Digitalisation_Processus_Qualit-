@@ -1,0 +1,42 @@
+/* Statistics page specific styles */
+.filters-card {
+    margin-bottom: 2rem;
+}
+
+.summary-card {
+    margin-bottom: 1.5rem;
+    border-radius: 0.25rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.statistics-table {
+    font-size: 0.9rem;
+}
+
+.statistics-table th {
+    background-color: #343a40;
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.statistics-table .progress {
+    height: 1rem;
+    margin-bottom: 0.25rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 800px) {
+    .statistics-table {
+        font-size: 0.8rem;
+    }
+    
+    .card-title {
+        font-size: 1rem;
+    }
+    
+    .card-text {
+        font-size: 1.5rem;
+    }
+}
